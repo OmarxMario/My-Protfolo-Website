@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: black;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -ms-scroll-rails: auto;
+
+}
+
+header {
+
+
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  z-index: 999;
+  background: black;
+
+  justify-content: center;
+  position: fixed;
+
+
+}
+
+header a {
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 15px;
+
+  text-decoration: none;
+  transition: 0.7s ease;
+  user-select: none;
+
+}
+
+header a:hover {
+  color: #ffea00;
+  text-decoration: underline yellow;
+}
+
+.img1 {
+  margin-bottom: 150px;
+  width: 100%;
+  height: 1000px;
+
+
+}
+
+.img1 img {
+  margin-left: 65%;
+}
+
+.img1 h1 {
+  color: #ffea00;
+
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.img1 p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.btn-img1 {
+
+  background-color: #000;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  transition: 0.7s ease;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-weight: 900;
+  color: yellow;
+  outline: 1px solid yellow;
+  ;
+
+}
+
+.btn-img1:hover {
+  background: #fbff0f;
+  color: #030303;
+  transform: scale(1.1);
+
+}
+
+.porjects {
+  border-top: solid 2px #ffea00;
+  ;
+  border-bottom: solid 2px #ffea00;
+  ;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 88%;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+
+}
+
+
+.card1 {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: 0.7s ease;
+
+}
+
+.card1:hover {
+  transform: scale(1.1);
+
+}
+
+.card2 {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: 0.7s ease;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+
+}
+
+.card3 {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  margin-right: 650px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: 0.7s ease;
+
+
+}
+
+.card3:hover {
+  transform: scale(1.1);
+
+}
+
+.img2 {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: 30px;
+
+}
+
+.btn-xc {
+
+  font-weight: 800;
+  font-size: 30px;
+  color: #00058a;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 95px;
+  margin-left: 230px;
+  transition: 0.7s ease;
+}
+
+.btn-xc :hover {
+  color: #0008ff;
+}
+
+@media (max-width: 1024px) {
+  .porjects {
+    flex-direction: column;
+  }
+
+  .Servesis {
+    flex-direction: column;
+  }
+}
+
+.card3 {
+  margin-right: 0px;
+}
+
+
+.Servesis {
+
+
+
+  border-bottom: solid 2px #ffea00;
+  ;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+
+  align-items: left;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffea00;
+  margin-left: 75%;
+  margin-bottom: 50px;
+
+
+
+}
+
+.title_p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffff00;
+  margin-left: 75%;
+  margin-bottom: 50px;
+
+}
+
+.contact {
+
+  border-bottom: solid 2px #ffea00;
+  ;
+
+
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+.card4 {
+  width: 300px;
+  height: 120px;
+  margin: 20px;
+  margin-right: 650px;
+  border-radius: 20px;
+  background-color: #fff;
+  align-items: center;
+  transition: 0.7s ease;
+}
+
+.card4 h1 {
+  display: flexbox;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #000c66;
+}
+
+.title_c {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffea00;
+  margin-left: 75%;
+  margin-bottom: 50px;
+}
+
+.card4 p {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0015b8;
+}
+
+.card4:hover {
+  transform: scale(1.1);
+
+}
+
+@media (max-width: 600px) {
+
+  .title {
+    margin-left: 20%;
+  }
+
+  .title_p {
+    margin-left: 20%;
+  }
+}
+
+footer {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 50px;
+  margin-top: 150px;
+}
+
+.links {
+  padding: 100%;
+  height: 25px;
+  font-size: 25px;
+
+  text-align: center;
+}
+
+.links .a {
+
+  letter-spacing: 10px;
+}
